@@ -4,4 +4,4 @@
 
 *This project is puzzle solver for sudoku*
 
-**OPK.AFTI: http://opk.afti.ru/tasks/reshatel-golovolomok **
+*OPK.AFTI: http://opk.afti.ru/tasks/reshatel-golovolomok *
