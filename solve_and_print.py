@@ -73,3 +73,4 @@ def print_puzzle(puzzle: list) -> None:
 
             else:
                 print(ch, end=" ")
+# ghgghghghghhg
