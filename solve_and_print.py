@@ -45,7 +45,7 @@ def check(puzzle: list, value: int, line: int, column: int) -> bool:
     return True
 
 
-def find_empty_positions(puzzle: list) -> int or None:
+def find_empty_positions(puzzle: list) -> (int, int) or None:
     """
     find empty position
     """
@@ -66,8 +66,10 @@ def print_puzzle(puzzle: list) -> None:
             if j % 3 == 0 and j != 0:
                 print(" | ", end="")
 
+            num = puzzle[i][j]
+            ch = str(num) if num != 0 else " "
             if j == 8:
-                print(puzzle[i][j])
+                print(ch)
 
             else:
-                print(str(puzzle[i][j]), end=" ")
+                print(ch, end=" ")

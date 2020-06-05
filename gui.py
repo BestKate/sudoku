@@ -13,6 +13,8 @@ IMAGES = {1: 'Numbers-1-icon.png', 2: 'Numbers-2-icon.png', 3: 'Numbers-3-icon.p
 
 
 def main(sudoku):
+    cell_size = 72
+
     root = tk.Tk()
 
     canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT)
@@ -34,7 +36,7 @@ def main(sudoku):
     def create_border():
         for x in range(9):
             for y in range(9):
-                x0 = x * 72
+                x0 = x * cell_size
                 y0 = y * 72
                 x1 = x0 + 72
                 y1 = y0 + 72
