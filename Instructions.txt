@@ -1,0 +1,10 @@
+____________________________________________________________________________________________
+Instructions for working with sudoku solver:
+1. Enter the name of the file where the puzzle is located
+2. Choose the mode in which you want to work with the puzzle:
+If you pressed the number 1, enter the name of the file in which you want to write the solved puzzle.
+If this file does not exist, it will be automatically created
+If you pressed the number 2, you can watch how the puzzle is solved
+If you pressed the number 3, a picture with unresolved puzzle is displayed.
+In order to solve it, press the space.
+____________________________________________________________________________________________
